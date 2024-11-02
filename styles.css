@@ -1,9 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .bodyDiv {
     border: 5px solid black;
     width: 826px;
     height: auto;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 900px) {
