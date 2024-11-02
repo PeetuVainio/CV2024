@@ -1,0 +1,52 @@
+.bodyDiv {
+    border: 5px solid black;
+    width: 826px;
+    height: auto;
+    padding: 20px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.name {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.jobTitle {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.basicInformation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.h2Texts {
+    color: rgb(0, 0, 139);
+    border-bottom: 3px solid black;
+}
+
+.basicInformationDiv {
+    display: flex;
+    align-items: center;
+}
+
+.Icon {
+    width: 20px;
+}
+
+.date {
+    opacity: 0.75;
+    margin: 0;
+}
+
+.infoText {
+    text-align: center;
+}
