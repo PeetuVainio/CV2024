@@ -1,38 +1,38 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(162, 255, 224);
 }
 
 .bodyDiv {
-    border: 5px solid black;
-    width: 826px;
-    height: auto;
-    padding: 20px;
+    position: absolute;
+    top: 20%;
+    padding-bottom: 120px;
+    left: 100px;
+    right: 100px; 
+    text-align: center;
 }
+
 
 @media only screen and (max-width: 900px) {
     .bodyDiv {
-        border: 5px solid black;
-        width: 600px;
-        height: auto;
-        padding: 20px;
+        top: 10%;
+        left: 20px;
+        right: 20px; 
     }
 }
 
-@media only screen and (max-width: 670px) {
-    .bodyDiv {
-        border: 5px solid black;
-        width: 400px;
-        height: auto;
-        padding: 20px;
-    }
+.bodyDivSivut {
+    position: absolute;
+    top: 10%;
+    padding-bottom: 120px;
+    left: 20px;
 }
 
-@media only screen and (max-width: 470px) {
-    .bodyDiv {
-        border: 5px solid black;
-        width: 250px;
-        height: auto;
-        padding: 20px;
+@media only screen and (max-width: 900px) {
+    .bodyDivSivut {
+        top: 15%;
+        left: 20px;
+        right: 20px; 
     }
 }
 
@@ -44,6 +44,7 @@ h3 {
     text-align: center;
     font-size: 50px;
     margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 .jobTitle {
@@ -70,7 +71,7 @@ h3 {
 
 .h2Texts {
     color: rgb(0, 0, 139);
-    border-bottom: 3px solid black;
+    font-size: 30px;
 }
 
 .basicInformationDiv {
@@ -89,4 +90,44 @@ h3 {
 
 .infoText {
     text-align: center;
+    font-size: 22px;
+}
+
+.footerText {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    border-top: 1px solid black;
+    z-index: 100;
+}
+
+header {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    border-top: 1px solid black;
+    z-index: 100;
+}
+
+.headerButton {
+    background: none;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.divContent {
+    padding: 10px;
 }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Työkokemus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button class="headerButton" id="paaSivu">Pääsivu</button>
+        <button class="headerButton" id="tyoKokemus">Työkokemus</button>
+        <button class="headerButton" id="projektit">Projektit</button>
+        <button class="headerButton" id="koulutus">Koulutus</button>
+        <button class="headerButton" id="taidot">Taidot</button>
+    </header>
+
+    <div class="bodyDivSivut">
+        <h2 class="h2Texts">Työkokemus</h2>
+        <div class="divContent">
+            <h3>Mulufikir</h3>
+            <p class="date">Syksy 2022</p>
+            <p>Teimme luokan keskuudessa nettisivut Etiopialaiselle päiväkodille, Mulufikirille.</p>
+            <li>Tein Mulufikirissa Donate sivun, sekä lisäilin myös nettisivulle kuvia.</li>
+            <li>Olin myös auttamassa muiden sivujen teossa ja suunnittelussa.</li>
+            <p>Linkki: <a href="https://www.mulufikir.org/">Mulufikir.org</a></p>
+        </div>
+        <div class="divContent">
+            <h3>Päijät-hämeen hyvinvointialue</h3>
+            <p class="date">Syksy 2023</p>
+            <p>Teimme luokassamme pienessä ryhmässä koulutus ohjelman Päijät-Sotelle. Teimme projektin Moodlella, sekä teimme plugineja moodleen PHP:lla</p>
+            <li>Itse olin tekemässä koulutusohjelmaa, en niinkään plugineja. Tein suurimmaksi osaksi kaiken koulutusohjelmasta itse.</li>
+            <li>Pääsin projektissa tutustumaan moodleen, sekä kuinka se asennetaan, ja kuinka sitä käytetään. Opin myös kuinka plugineja tehdään ja asennetaan moodleen.</li>
+            <p>Asiakas oli todella tyytyväinen lopputulokseen.</p>
+        </div>
+        <div class="divContent">
+            <h3>Orimattilan kaupunki</h3>
+            <p class="date">Kevät 2024</p>
+            <p>Teimme luokassamme pienessä ryhmässä Orimattilan kaupungille päiväkotikäyttöön nettisivut.</p>
+            <li>Sivulla pystyit kirjautumaan, rekisteröitymään, lähettämään tiedostoja google driveen, lisäämään ja poistamaan kommentteja, tehdä blogeja, tykkäämään tiedostoista, aloittaa chatin ja kommentoida chatteihin.</li>
+            <li>Itse tein edellä mainituista asioista tiedostojen lähettämisen google driveen, sekä autoin sivuston ulkoasussa ja chatin ja tiedostojen koodauksessa.</li>
+            <li>Käytimme sivun tekemiseen React.js, MongoDB, CSS, Node.js</li>
+        </div>
+        <div class="divContent">
+            <h3>Tivi Infoscreen</h3>
+            <p class="date">Syksy 2024</p>
+            <p>Olemme luokassamme pienessä ryhmässä tekemässä infoscreeniä Tivin aloille Salpauksessa.</p>
+            <li>Infoscreenistä näet päivän ruokalistan, tapahtumia, sekä erilaista anturidataa(ilmanpaine, ilmankosteus, lämpötila, kävijämäärä)</li>
+            <li>Itse olen tekemässä Anturidataa, sekä sivuston ulkoasua. Käytän anturidatan saamiseen Arduinoa, Raspberry Pi:ta, sekä sensoreja.</li>
+            <li>Käytän projektissa Node.js, JavaScript, MongoDB, MaterialUI, Next.js, EmotionCSS, Framer</li>
+        </div>
+    </div>
+
+    <footer>
+        <div class="basicInformation">
+            <div class="basicInformationDiv">
+                <img src="images/location-icon.png" class="Icon">
+                <p class="footerText">Lahti, Finland</p>
+            </div>
+            <div class="basicInformationDiv">
+                <img src="images/email-icon.png" class="Icon">
+                <p class="footerText">peetuvainiotyo@gmail.com</p>
+            </div>
+            <div class="basicInformationDiv">
+                <img src="images/github-icon.png" class="Icon">
+                <a class="footerText" href="https://github.com/PeetuVainio">PeetuVainio</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        document.getElementById("paaSivu").onclick = function () {
+            location.href = "https://peetuvainio.github.io/CV2024/";
+        };
+
+        document.getElementById("tyoKokemus").onclick = function () {
+            location.href = "https://peetuvainio.github.io/CV2024/tyokokemus.html";
+        };
+
+        document.getElementById("projektit").onclick = function () {
+            location.href = "https://peetuvainio.github.io/CV2024/projektit.html";
+        };
+
+        document.getElementById("koulutus").onclick = function () {
+            location.href = "https://peetuvainio.github.io/CV2024/koulutus.html";
+        };
+
+        document.getElementById("taidot").onclick = function () {
+            location.href = "https://peetuvainio.github.io/CV2024/taidot.html";
+        };
+    </script>
+</body>
+</html>
